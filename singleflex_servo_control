@@ -1,0 +1,22 @@
+#include <Servo.h>
+
+Servo servo;
+int flex = A0;
+
+
+void setup() {
+  Serial.begin(9600);
+  servo.attach(11);
+}
+
+void loop() {
+  int flex_pos = analogRead(flex);
+  int servo_pos = map(flex_pos, 840, 900, 0 ,180);
+  servo_pos = constrain(servo_pos,0,180);
+  servo.write(servo_pos);
+
+Serial.print(flex_pos);
+
+delay(300);
+
+} 

@@ -1,4 +1,4 @@
-
+#install the libraries - joblib, numpy
 #this code takes the value from the sensor and predicts the hand gesture (among 6 classes), 
 #using joblib to access the trained svm model and then sends the control signal to node mcu
 

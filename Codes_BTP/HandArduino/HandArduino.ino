@@ -8,7 +8,7 @@ void setup() {
   for (int i = 0; i < 10; i++) {
     pinMode(relayPins[i], OUTPUT);
     
-    digitalWrite(relayPins[i], HIGH); // Change LOW to HIGH
+    digitalWrite(relayPins[i], HIGH); 
   }
 }
 

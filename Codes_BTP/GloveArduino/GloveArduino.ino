@@ -1,3 +1,5 @@
+// connect all the sensors to this arduino 
+
 const int flexSensorPin1 = A1;
 const int flexSensorPin2 = A2;
 const int flexSensorPin3 = A3;

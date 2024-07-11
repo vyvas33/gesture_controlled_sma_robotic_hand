@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
-
-const char* ssid = "mid";
-const char* password = "onerupee";
+// use hotspot and connect pc and node mcu to the same network. Enter the wifi details below. Connect this NodeMCU serially to the Hand Arduino.
+const char* ssid = "  ";
+const char* password = "  ";
 
 ESP8266WebServer server(80);
 
